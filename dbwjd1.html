@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> YU-JEONG </title>
+	<style>
+	/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+@media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+} 
+ .img {
+     width: 100%;
+    height: auto;
+    position: absolute;
+} 
+* {
+    box-sizing: border-box;
+  }
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+    border: 1px;
+} 
+.button3 {
+	border-radius: 8px;
+	cursor: pointer;
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.header {
+	text-align: center;
+    background-color: white;
+    color: pink;
+    padding: 15px;
+    border-radius: 8px;
+}
+.menu ul {
+    list-style-type: none;
+    border-radius: 8px;
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    border-radius: 8px;
+    background-color: white;
+    color: pink;
+}
+.aside {
+    background-color: pink;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+}
+.footer {
+    background-color: pink;
+    color: white ;
+    text-align: center;
+    font-size: 12px;
+    padding: 15px;
+    border:1px solid white;
+    border-radius: 8px;
+}
+	</style>
+</head>
+<body>
+	<body style="background-color: pink; ">
+
+<div>
+
+<div class="header">
+  <h1>♥ YU-JEONG PROFILE ♥</h1>
+</div>
+
+<div class="row">
+	<div class="col-3 col-s-3 menu">
+  <ul>
+    <li class="button3">Yu Jeong</li>
+    <li class="button3">♥</li>
+    <li class="button3">♥</li>
+    <li class="button3">♥</li>
+  </ul>
+</div>
+
+<div style="color: white; "class="col-6 col-s-9">
+  <h3>Yu-Jeong</h3>
+  <p>School : Daegu Catholic University</p>
+  <p>Home : Daegu</p>
+  <p>Age : 20-years-old</p>
+  <img src="D.jpg" width="300" height="300"/>
+</div>
+
+	<div class="col-3 col-s-12">
+  <div class="aside">
+    <h2>Dae-gu</h2>
+    <p>South Korea City</p>
+    <h2>IT</h2>
+    <p>Information Technology</p>
+    <h2>HTML</h2>
+    <p>With HTML you can create your own Website.</p>
+  </div>
+</div>
+
+</div>
+<div class="row footer">
+	<div class="col-12 col-s-12"> thank you for watching this page.</div>
+
+</div>
+</body>
+</html>
